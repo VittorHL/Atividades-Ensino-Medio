@@ -1,0 +1,129 @@
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/estilo.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+<style>
+
+#conteudo{margin-top:120px;margin-left: 150px; position : absolute;}
+#bloco1{margin-top:0px;margin-left: 0px; position : absolute; width : 400px;}
+	
+.texto2{margin-top: 0px; color: #1E90FF; font-family: "arial"; font-size: 32px; font-weight: bold;}	
+	
+	
+	label, input, select {font-size: 12px; margin-bottom: 10px;}
+
+	input, select, textarea {background: #FFFFFF;}
+	
+	label{color: #1E90FF;}
+	
+	textarea{resize:none; outline: none;}
+
+	.campo {font-size: 12px; font-family: arial; color: #000000; width: 400px;}
+
+	
+
+	fieldset{padding: 10px; border-color: #000000;background: #FFFFFF;}
+
+	.botao{ border: 1px solid #44559A; font-size: 12px; font-family: arial; color: #000000; background: #f3f3f3 ; width: 100px; margin-top: 10px;}
+	
+	
+
+
+</style>
+
+</head>
+<body>
+<div id = "cabeçalho">
+   <Span class = Texto2> InfoCar </span>
+	
+	</div>
+
+<div id="menu">
+	  	<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="Galeria.html">Galeria</a></li>
+			<li><a href="quem.html">Sobre Nós</a></li>
+			<li><a href="Localizacao.html">Localização</a></li>
+			<li><a href="contato.html">Contato</a></li>
+	  	</ul>
+</div>
+
+
+<div id = conteudo>
+<div id = bloco1>
+
+<fieldset>
+  <form name = form1>
+      <label>Nome:*</label>
+      <input type='text'  name='nome' class='campo' required >
+      
+      <label>E-mail:*</label>
+      <input type="email" class='campo' required name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      
+	  <label>Idade:*<i>(Somente Números)</i></label>
+      <input type='text' name='idade' class='campo' pattern="[0-9]+$" required>
+      
+      
+	  <label>Dia da Avaliaçao:*</label>
+	  <input type="date" name="calendario"  class='campo'>
+	  
+	  <label>Sexo:*</label>
+	  <select name="sexo">
+	  <option value="M">Masculino</option>
+	  <option value="F">Feminino</option>
+	 
+	  </select><br>
+	  
+	  
+	  <label>Estados:</label><br>
+	  <select name="estados-brasil">
+		<option value="AC">Acre</option>
+		<option value="AL">Alagoas</option>
+		<option value="AP">Amapá</option>
+		<option value="AM">Amazonas</option>
+		<option value="BA">Bahia</option>
+		<option value="CE">Ceará</option>
+		<option value="DF">Distrito Federal</option>
+		<option value="ES">Espírito Santo</option>
+		<option value="GO">Goiás</option>
+		<option value="MA">Maranhao</option>
+		<option value="MT">Mato Grosso</option>
+		<option value="MS">Mato Grosso do Sul</option>
+		<option value="MG" selected>Minas Gerais</option>
+		<option value="PA">Pará</option>
+		<option value="PB">Paraíba</option>
+		<option value="PR">Paraná</option>
+		<option value="PE">Pernambuco</option>
+		<option value="PI">Piauí</option>
+		<option value="RJ">Rio de Janeiro</option>
+		<option value="RN">Rio Grande do Norte</option>
+		<option value="RS">Rio Grande do Sul</option>
+		<option value="RO">Rondônia</option>
+		<option value="RR">Roraima</option>
+		<option value="SC">Santa Catarina</option>
+		<option value="SP">Sao Paulo</option>
+		<option value="SE">Sergipe</option>
+		<option value="TO">Tocantins</option>
+	  </select><br>
+	  
+      <label>Comentários:</label>
+      <textarea cols='50' rows='6' name='Comentarios' class='campo' placeholder="Digite aqui seu comentário ou dúvida/sugestao"></textarea>
+      <br>
+      <input type='submit' name='BTEnvia'  value='Enviar email' class = botao>
+      <input type='reset' name='BTApaga'  value='Apagar' class = botao>
+   </form>
+   </fieldset>
+   
+</div>
+</div>
+
+
+
+
+
+</body>
+</html>

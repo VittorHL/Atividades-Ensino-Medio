@@ -1,0 +1,59 @@
+<html>
+<head>
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/estilo.css">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+<style>
+
+#conteudo{margin-top:120px;margin-left: 150px; position : absolute;}
+#bloco1{margin-top:0px;margin-left: 0px; position : absolute; width : 600px;}
+#bloco2{margin-top:120px;margin-left: 820px; position : absolute; width : 200px;}
+
+.texto1{color: #AA0000; font-size: 17px; font-family: cursive; font-weight: bold;}
+.texto2{margin-top: 0px; color: #1E90FF; font-family: "arial"; font-size: 32px; font-weight: bold;}
+
+p{text-align : justify; line-height: 1.5;}
+
+</style>
+
+</head>
+<body>
+<div id = "cabeçalho">
+   <Span class = Texto2> InfoCar </span>
+	
+	</div>
+
+
+<div id="menu">
+	  	<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="Galeria.html">Galeria</a></li>
+			<li><a href="quem.html">Sobre Nós</a></li>
+			<li><a href="Localizacao.html">Localização</a></li>
+			<li><a href="contato.html">Contato</a></li>
+	  	</ul>
+</div>
+
+
+<div id = conteudo>
+<div id = bloco1>
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:450px;width:600px;'><div id='gmap_canvas' style='height:450px;width:600px;'></div><div><small><a href="embedgooglemaps.com/pt/">https://embedgooglemaps.com/pt/</a></small></div><div><small><a href="http://sparpedia.no/">www.sparpedia.no</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:17,center:new google.maps.LatLng(44.6589332,11.124912600000016),mapTypeId: google.maps.MapTypeId.HYBRID};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(44.6589332,11.124912600000016)});infowindow = new google.maps.InfoWindow({content:'<strong>Museo Lamborghini</strong><br>Museo Lamborghini Via Modena, 12, 40019 Sant\'Agata Bolognese BO, Itália<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+</div>
+</div>
+
+<div id = bloco2>
+Via modena, 12
+Sant'Agata Bolognese BO<br>
+Fone: (31)1122-8899
+
+</div>
+
+
+
+</body>
+</html>
