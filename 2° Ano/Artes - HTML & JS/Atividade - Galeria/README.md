@@ -1,0 +1,1 @@
+Neste ponto, estávamos imersos na aprendizagem da implementação de galerias de imagens, uma habilidade que se revelou valiosa para projetos futuros. Essa fase representou mais um passo em direção à construção das bases necessárias para enfrentar desafios por vir.
