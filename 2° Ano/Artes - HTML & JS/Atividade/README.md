@@ -1,0 +1,1 @@
+Neste ponto, é possível observar um modesto progresso. A tarefa envolvia a criação de um site seguindo o layout fornecido pelo professor. Foi uma experiência que destacou o meu crescimento, à medida que comecei a transformar conceitos em realidade digital.
